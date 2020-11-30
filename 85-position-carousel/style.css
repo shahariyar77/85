@@ -1,0 +1,74 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.author-bg-1{
+	background-image: url(img/bill-gates-2.jpg);
+}
+
+
+/*========================   Nav manu ==================*/
+
+.testimonial-wraper {
+  position: relative;
+}
+h2.testemonial-tittle {
+  position: absolute;
+  left: 0;
+  top: 89px;
+  font-size: 77px;
+  z-index: 2;
+}
+h2.testemonial-tittle span {
+  color: #fff;
+}
+.testemonial-text {
+	font-size: 16px;
+	line-height: 1.9;
+	padding-top: 250px;
+	max-width: 45%;
+	color: black;
+}
+.testemonial-outher {
+  margin-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.testemonial-outher i.fa {
+  color: blue;
+  font-size: 24px;
+}
+.testemonial-outher h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+.author-bg-1 {
+	position: absolute;
+	right: -5%;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	background-size: cover;
+	background-position: center top;
+	background-color: #ddd;
+}
+.single-testemonial-item{
+	overflow: hidden;
+	position: relative;
+}
+.testemonial-carousel .owl-nav div {
+	height: 70px;
+	width: 70px;
+	background: blue;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+
+
